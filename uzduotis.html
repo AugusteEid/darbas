@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="lt">
+	<head>
+		<title> Forma </title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h2>Duomenų informacija</h2>
+		<form method="post">
+			<fieldset>
+				<label>El. pašto adresas: </label>
+				<input type="email" required>
+			</fieldset>
+			<fieldset>
+				<label>Slaptažodis: </label>
+				<input type="password" required>
+			</fieldset>
+			<fieldset>
+				<label>Patvirtinti slaptažodį: </label>
+				<input type="password" required>
+			</fieldset>
+			<fieldset>
+				<label>Sutinku su taisyklėmis</label>
+				<input type="checkbox" required>
+			</fieldset>
+		<h2>Pasitiktinkite sąskaitos adresą</h2>
+			<fieldset>
+				<label>Lytis: </label>
+				<select>
+					<option selected disabled> </option>
+					<option>Moteris</option>
+					<option>Vyras</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<label>Vardas: </label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Pavardė: </label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Gatvė, namo(buto) nr.: </label>
+				<input type="text" required>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Pašto kodas: </label>
+				<input type="number" required>
+				<a href="https://www.post.lt/pasto-kodu-ir-adresu-paieska">Pašto kodo paieška</a>
+			</fieldset>
+			<fieldset>
+				<label>Miestas: </label>
+				<input type="text" required>
+			</fieldset>
+			<fieldset>
+				<label>Šalis: </label>
+				<select>
+					<option selected disabled>-</option>
+					<option>Lietuva</option>
+					<option>Latvija</option>
+					<option>Estija</option>
+					<option>Kita</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<label>Telefonas: </label>
+				<input type="number" required>
+			</fieldset>
+			<fieldset>
+				<label>Papildoma informacija: </label>
+				<textarea> </textarea>
+			</fieldset>
+		<h5>Prašome užpildyti visus pažymėtus laukus * </h5>
+			<fieldset>
+				<button type="submit">Registruotis</button>
+			</fieldset>
+	</body>
+</html>
